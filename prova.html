@@ -26,7 +26,7 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="index.html">Home</a>
+                                <a class="navbar-brand" href="index.html">Página Inicial</a>
                                 <br>
                             </div>
                             <!--/.navbar-collapse -->
@@ -35,9 +35,18 @@
                 </nav>
                 <h3 class="text-muted">Project name</h3>
             </div>
-            <div class="jumbotron">Questão 1</div>
-            <div class="jumbotron">Questão 2</div>
-            <div class="jumbotron">Questão 3</div>
+            <div class="jumbotron">
+                <div class="container">
+                    <h1>Título</h1>
+                    <div class="quiz-container">
+                        <div id="quiz"></div>
+                    </div>
+                    <button id="previous">Previous Question</button>
+                    <button id="next">Next Question</button>
+                    <button id="submit">Submit Quiz</button>
+                    <div id="results"></div>
+                </div>
+            </div>
             <footer class="footer">
                 <p>© Copyright ?????</p>
             </footer>
@@ -49,5 +58,7 @@
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/popper.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
+        <link href="quizStyle.css" type="text/css" rel="stylesheet"/>
+        <script type="text/javascript" src="quiz.js"></script>
     </body>
 </html>
