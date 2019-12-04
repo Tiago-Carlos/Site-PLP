@@ -6,7 +6,7 @@
         a: "Literalmente um pato digitando.",
         b: "Fazer um código com tabs no lugar de espaços.",
         c: "Fazer um código com espaços no lugar de tabs.",
-        d: "Estilo de codificação onde o importante é o tipo, não o comportamento"
+        d: "Estilo de codificação onde o importante é o comportamento, não o tipo"
       },
       correctAnswer: "d"
     },
