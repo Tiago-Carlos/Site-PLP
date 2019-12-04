@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Class </title>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="jumbotron-narrow.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container align-middle">
+            <div class="header clearfix">
+                <nav>
+                    <nav class="navbar navbar-inverse navbar-fixed-top">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="index.html">Página Inicial</a>
+                                <br>
+                            </div>
+                            <!--/.navbar-collapse -->
+                        </div>
+                    </nav>
+                </nav>
+                <h3 class="text-muted">Project name</h3>
+            </div>
+            <div class="jumbotron">
+                <div class="embed-responsive embed-responsive-16by9"> 
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yhEqroz32Nk"></iframe>                     
+                </div>
+            </div>
+            <div class="row marketing">
+                <h3>PARADIGMAS DE ORIENTAÇÃO A OBJETOS </h3>
+                <p>Neste paradigma, tudo é considerado objetos, que por sua vez são agrupados em classes.</p>
+                <p>Objetos: entidades que são instâncias de uma classe, e que possuem atributos e métodos. As classes agrupam objetos que são entidades com características semelhantes entre si. Pode ser entendido como um conceito do mundo real que possa ser aplicado a um sistema</p>
+                <h4>Os conceitos muito utilizados em orientação a objetos são: </h4>
+                <p>Abstração: Representação de uma entidade do mundo real, com seus comportamentos e características.</p>
+                <p>Classe: módulo ou estrutura de dados abstrata<br></p>
+                <p>Métodos: comportamentos desses objetos. Semelhante a uma função. Implementa uma ação da entidade representada pela classe à qual pertencem.&nbsp;<br></p>
+                <p>**Construtores são métodos especiais para criação e inicialização de uma nova instância da classe. Inicializa objetos e suas variáveis, cria novos objetos, garantindo sua configuração correta em sua criação.**</p>
+                <p>(centralizar)Exemplo em Java de chamada de construtor: 
+Carro meuCarro = new Carro();</p>
+                <p>Destrutores são métodos que geralmente são chamados quando termina o tempo de vida do objeto, permitindo assim a desalocação de memória. Em Java, isso é feito automaticamente, através do mecanismo Garbage Collector.<br></p>
+                <p>Atributos: são as características desses objetos, agrupados em uma classe. Pode ser um valor simples, como um inteiro; ou estruturas complexas, como um outro objeto.</p>
+                <p>Conceito de encapsulamento: trata-se do fato de evitar que atributos de uma classe sejam diretamente acessíveis de fora da classe. Para acessar esses atributos, métodos (como get e set, em Java por exemplo) são definidos, permitindo assum maior controle dos valores. &nbsp;<br></p>
+                <p>O conceito de VISIBILIDADE é utilizado para indicar o nível de acesso de atributos e métodos. Pode ser visível por todos (público), pode ser visto apenas pela classe (privado) ou pode ser protegido (visto apenas por suas classes e subclasses). Em Java, são definidos pelas palavras public, private e protected, respectivamente.&nbsp;<br></p>
+                <p>O conceito de HERANÇA é um mecanismo que permite que características comuns a diversas classes sejam organizadas em uma classe base, e que a partir desta, novas classes (subclasses) podem ser criadas. Estas, por sua vez, além das características da classe pai, englobam também suas características específicas (tais como atributos e métodos por exemplo). Herança múltipla (uma subclasse herdar de mais de uma classe) não é suportado por todas as linguagens - como Java, por exemplo.<br></p>
+                <p>Classes abstratas são classes que não possuem implementação em si, mas apenas a declaração dos atributos e métodos - que por sua vez são implementadas nas suas classes filhas. Em java, são representadas por ''interface'' ou ''abstract class''. Na interface, entretanto, não tem nenhum método implementado.&nbsp;</p>
+                <p>POLIMORFISMO, por sua vez, é apresentação da mesma interface para formas diferentes. Podemos abordar as definições de sobrescrita (método com mesmo nome e quantidade de parâmetros), sobrecarga (mesmo nome, mas quantidades e tipos de parâmetros diferentes) e substituição (quando uma subclasse reescreve um método definido na superclasse).&nbsp;<br></p>
+                <p>Padrões de projeto de software: Descrevem soluções gerais para resolver problemas que ocorrem frequentemente no desenvolvimento de software. Nos padrões Gangue of Four, por exemplo, são 24 tipos agrupados em 3 famílias: Criacional, estrutural e comportamental.&nbsp;<br></p>
+                <p>UML - UNIFIED MODELING LANGUAGE - Não é vinculada a nenhuma linguagem de programação em específico, mas sim uma representação gráfica (diagrama). Essa linguagem de notação pode representar diagramas estruturais (representando a arquitetura do sistema) e comportamentais (como funcionalidades, processo do negócio, trocas de mensagens).&nbsp;<br></p>
+                <h4>
+                        RELACIONAMENTOS ENTRE CLASSES </h4>
+                <p>
+                        AGREGAÇÃO - Vínculo no qual ocorre o conceito de parte-todo entre classes, porém quando uma classe deixa de existir, a outra não necessariamente deixa também.  </p>
+                <p>ASSOCIAÇÃO - Vínculo binário (ou unário) entre classes, no qual não ocorre o conceito de parte-todo entre uma e outra.&nbsp;COMPOSIÇÃO - Vínculo entre classes no qual quando a classe Todo deixa de existir, as classes Parte também são destruídas.</p>
+                <p>COMPOSIÇÃO - Vínculo entre classes no qual quando a classe Todo deixa de existir, as classes Parte também são destruídas.&nbsp;</p>
+                <p>ACOPLAMENTO - é a relação de interdependência entre as classes. Deve ser a mais baixa possível, para facilitar a manutenção do código, entre outras vantagens.&nbsp; <br></p>
+            </div>
+            <div class="col-lg-6">
+                <p></p>
+            </div>
+            <footer class="footer">
+                <p>© Copyright ?????</p>
+            </footer>
+        </div>         
+        <!-- /container -->
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
